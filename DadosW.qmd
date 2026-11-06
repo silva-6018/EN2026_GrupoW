@@ -1,0 +1,14 @@
+---
+title: "DadosW"
+author: "Sofia Oliveira 63481​, Margarida Correia 63455​, Inês Silva 63418, Mariana Caeiro 63434​"
+format: html
+editor: visual
+---
+
+## Análise dos dados
+
+```{r}
+library(readxl)
+dados <- read_excel("Tabela_EN.xlsx")
+View(dados)
+```
