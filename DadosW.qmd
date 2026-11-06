@@ -11,6 +11,5 @@ editor: visual
 library(readxl)
 dados <- read_excel("Tabela_EN.xlsx")
 View(dados)
+mean(dados$`Largura da folha (cm)`)
 ```
-
-Teste
