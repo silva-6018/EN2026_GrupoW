@@ -9,7 +9,6 @@ editor: visual
 
 ```{r}
 library(readxl)
-dados <- read_excel("Tabela_EN.xlsx")
-View(dados)
-mean(dados$`Largura da folha (cm)`)
+dados <- read_excel("GroupW_EN2026PW.xlsx")
+summary(dados)
 ```
